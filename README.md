@@ -100,7 +100,7 @@ persistent network artifacts. These results are specific to the test configurati
 ### 6. Output of netstat -ano | find "ESTABLISHED"`
 **However when we run netstat or tcpview, we see the PID of the active process is 5948 which happens to be the initial PID of the parent (Dism.exe) :**  
 
-!(images/DLL_HIJACK_6.png))
+![](images/DLL_HIJACK_6.png))
 ---
 
 ### 7. Output of Get-Process -Id 5948 -ErrorAction SilentlyContinue | Format-List Id,ProcessName,StartTime,Path,UserName
